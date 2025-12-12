@@ -6,9 +6,9 @@
 - pip
 
 ## Instalação (recomendo usar virtualenv)
-1. Abra o terminal no diretório do projeto `iris-predictor/`.
+1. Abra o terminal no diretório do projeto `mushrooms-predictor/`.
 
-2. Criar e ativar ambiente virtual (Windows):
+3. Criar e ativar ambiente virtual (Windows):
    - `python -m venv .venv`
    - `.\.venv\Scripts\activate`
 
@@ -16,7 +16,7 @@
    - `python -m venv .venv`
    - `source .venv/bin/activate`
 
-3. Instalar dependências:
+4. Instalar dependências:
    - `pip install -r requirements.txt`
 
 ## Preparar o modelo
@@ -46,3 +46,4 @@ A interface abrirá em `http://localhost:8501/` (padrão).
 ## Observações
 - A API responde com: `predicted_class`, `confidence` (0..1) e `probabilities` (lista).
 - Em produção, configure CORS apropriado e cole o modelo com segurança.
+
